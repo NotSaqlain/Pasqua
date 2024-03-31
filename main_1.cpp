@@ -34,6 +34,8 @@ int numOccorenza(string frase, char c) {
     } else if (frase[start] == c) {
         frase.erase(0, 1);
         return 1 + numOccorenza(frase, c);
+    } else {
+        frase.erase(0, 1);
+        return 0 + numOccorenza(frase, c);
     }
-    return 0;
 }
