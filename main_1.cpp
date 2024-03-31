@@ -26,15 +26,14 @@ int main() {
 
 
 int numOccorenza(string frase, char c) {
-    int count = 0;
     int start = 0;
     int end = frase.size();
 
     if (start == end) {
         return 0;
     } else if (frase[start] == c) {
-        count = 1;
         frase.erase(0, 1);
-        return count + numOccorenza(frase, c);
+        return 1 + numOccorenza(frase, c);
     }
+    return 0;
 }
