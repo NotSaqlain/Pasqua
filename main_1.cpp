@@ -6,14 +6,17 @@
 
 using namespace std;
 
-int numOccorenza(string frase, char c);
+// int numOccorenza(string frase, char c);
 
 int main() {
   string s;
   char c;
-
+  
   cout << "Scrivi la frse: ";
   cin >> s;
+
+  int len = s.size();
+  cout << len;
 
   cout << "Scrivi un carattere: ";
   cin >> c;
@@ -21,11 +24,14 @@ int main() {
 
 
 
+
   return 0;
 }
 
+/*
 int numOccorenza(string frase, char c) {
   if (frase[0] != '0') {
     return ;
   }
 }
+*/
