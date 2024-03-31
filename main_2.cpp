@@ -36,6 +36,6 @@ int massimo(int array[], int max, int index) {
 
     if (max < array[index]) max = array[index];
 
-    massimo(array, max, index+1);
+    return massimo(array, max, index+1);
 
 }
