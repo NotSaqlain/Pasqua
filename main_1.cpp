@@ -19,7 +19,7 @@ int main() {
     cout << "Scrivi un carattere: ";
     cin >> c;
 
-    cout << c << " è presente " << numOccorenza(s, c) << "volte nella frase!" << endl;
+    cout << c << " è presente " << numOccorenza(s, c) << " volte nella frase!" << endl;
 
     return 0;
 }
