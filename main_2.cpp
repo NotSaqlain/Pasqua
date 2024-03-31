@@ -11,6 +11,8 @@ void stampa(int array[]);
 int massimo(int array[], int max, int index);
 
 int main() {
+    srand(time(NULL));
+    
     int array[N];
     int max = array[0];
     
